@@ -1,0 +1,218 @@
+/* wallet connect */
+.web3modal-modal-lightbox {
+    z-index: 10000 !important;
+}
+
+.header__1 {
+    background: #183b56;
+    border-bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    color: white;
+  }
+
+.header__menu li>a {
+    display: flex;
+    color: white;
+    font-size: 20px;
+}
+.header__menu li>a>i {
+    padding-right: 5px;
+}
+.social-box {
+    width: fit-content !important;
+}
+
+.header__mobile__menu li>a {
+    display: flex;
+}
+.header__mobile__menu li>a>i {
+    padding-right: 5px;
+}
+.live-card {
+    width: auto !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    z-index: 0;
+}
+
+body {
+    background: black;
+}
+.header-title {
+    color: white;
+}
+.card__item {
+    background: #183b56;
+    color: white;
+    border: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white ;
+}
+
+.card__item.one .card_head .details, .card__item.six .card_head .details {
+    background: black;
+    color: white;
+    font-size: 22px;
+}
+.txt_xs {
+    font-size: 20px;
+}
+.txt_sm {
+    font-size: 22px;
+}
+
+.move-btn {
+    background-color: #183b56 !important;
+    border: none !important;
+    color: white !important;
+}
+.section__artists .swiper-button-prev::after {
+    color: white;
+}
+.section__artists .swiper-button-next::after {
+    color: white;
+}
+/* prediction */
+.prediction_card .card_head {
+    height: 85px !important;
+}
+.prediction_card .card_title {
+    padding: 0;
+    margin: 0 10px 0 0;
+    min-width: 100px;
+}
+
+.price-change {
+    max-width: 25rem;
+    max-height: 18rem;
+    border-radius: 30% !important;
+    border: 3px solid #fff;
+    background-color: #e6edf0;
+}
+.price-change .main-data{
+    margin: 4em 2em;
+}
+.price-change .main-data .prize-pool {
+    width: 100%;
+    margin: 5px 0px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+.price-change .prize-pool .value {
+    padding: 0 5px;
+}
+.price-change .main-data .btn {
+    width: 100%;
+    margin: 5px;
+}
+
+.price-change .last-price {
+    margin: 0 5% 5px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+}
+.price-change .last-price .label {
+    font-size: 15px;
+}
+
+.price-change .currnet-price {
+    font-size: 25px;
+    margin: 0 0px;
+    padding: 0 5px;
+}
+
+.price-change .price-difference {
+    color: white;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 0 5%;
+    width: 90%;
+}
+.price-change .comming-soon {
+    color: grey;
+    font-size: 25px;
+}
+.back-color-orange {
+    background: #e95432 !important;
+}
+.back-color-green {
+    background: #36b37e !important;
+}
+.color-orange {
+    color: #e95432 !important;
+}
+.color-green {
+    color: #36b37e !important;
+}
+.color-black {
+    color: rgb(63, 62, 62) !important;
+}
+
+/* .avatars .details {
+    color: white;
+    background: #183b56;
+} */
+.card__item h1, .card__item h2, .card__item h3, .card__item h4, .card__item h5, .card__item h6 {
+    color: black ;
+}
+.card__item p, .card__item span {
+    color: white ;
+}
+.card__item .comming-soon{
+    color: black ;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+/* events */
+.events-table tr {
+    cursor: pointer;
+}
+.hiddenRow {
+    padding: 0 4px !important;
+    background-color: #eeeeee;
+    font-size: 13px;
+}
+
+.events-table {
+    margin: 5px 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.event-id {
+    font-weight: 600;
+}
+
+.event-avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.event-title {
+    font-weight: 600;
+    max-width: 200px;
+}
+
+.event-category .category-value {
+
+}
+.prize-value img {
+    width: 20px;
+}

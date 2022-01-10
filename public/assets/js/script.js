@@ -168,65 +168,6 @@ $(".light").on('click', function (e) {
 
 }());
 
-// =========== swiper
-
-var mySwiper = new Swiper(".swiper_artists", {
-	// Optional parameters
-	loop: true,
-	slidesPerView: 3,
-	spaceBetween: 10,
-
-	breakpoints: {
-		// when window width is >= 320px
-		320: {
-			slidesPerView: 1,
-		},
-		// when window width is >= 480px
-		768: {
-			slidesPerView: 2,
-		},
-		1000: {
-			slidesPerView: 4,
-		},
-	},
-
-	// Navigation arrows
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-});
-
-var mySwiper = new Swiper(".swiper_hero", {
-	// Optional parameters
-	loop: true,
-	slidesPerView: 3,
-	spaceBetween: 10,
-	breakpoints: {
-		// when window width is >= 320px
-		320: {
-			slidesPerView: 1,
-		},
-		// when window width is >= 480px
-		576: {
-			slidesPerView: 2,
-		},
-		876: {
-			slidesPerView: 3,
-		},
-		1150: {
-			slidesPerView: 3,
-		},
-	},
-
-	// Navigation arrows
-	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-});
-
-// ========== . countdown
 
 function makeTimer() {
 

@@ -29,15 +29,26 @@
 .header__mobile__menu li>a>i {
     padding-right: 5px;
 }
-.live-card {
-    width: auto !important;
+
+.section_head {
+    margin-left: 200px;
 }
-.swiper-button-next, .swiper-button-prev {
-    z-index: 0;
+
+
+.owl-item {
+    width: 300px !important;
+    margin-right: 10px;
+}
+
+.owl-stage {
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
 }
 
 body {
     background: black;
+    font-family: Kanit, sans-serif;
 }
 .header-title {
     color: white;
@@ -179,9 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* events */
-.events-table tr {
+.events-table tr:nth-child(2n-1) {
     cursor: pointer;
 }
+
 .hiddenRow {
     padding: 0 4px !important;
     background-color: #eeeeee;
@@ -215,4 +227,111 @@ h1, h2, h3, h4, h5, h6 {
 }
 .prize-value img {
     width: 20px;
+}
+
+.accordian-body {
+    display: flex;
+    padding: 10px;
+    font-family: Kanit, sans-serif;
+}
+.event-status {
+    width: 30%;
+}
+.event-view-contract a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+    color: rgb(251, 179, 9);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.event-view-contract a svg{
+    align-self: center;
+    fill: rgb(251, 179, 9);
+    flex-shrink: 0;
+    margin-left: 4px;
+}
+
+.event-ufc-contract a {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: fit-content;
+    color: rgb(251, 179, 9);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.event-ufc-contract a svg {
+    align-self: center;
+    fill: rgb(251, 179, 9);
+    flex-shrink: 0;
+    margin-left: 4px;
+}
+
+.event-status-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.event-roadmap {
+    font-size: 12px;
+    color: rgb(122, 110, 170);
+    text-align: left;
+    margin-bottom: 5px;
+}
+.event-start, .event-close, .event-end {
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.event-description {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+
+.event-description .description-label {
+    font-size: 12px;
+    color: rgb(122, 110, 170);
+    text-align: left;
+    margin-bottom: 5px;
+}
+.event-description .pool-rates-label {
+    font-size: 12px;
+    color: rgb(122, 110, 170);
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.event-description .pool-rates-content {
+    padding: 16px;
+    border: 2px solid rgb(238, 234, 244);
+    border-radius: 16px;
+    -webkit-box-flex: 1; 
+    margin-bottom: 16px;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.event-description .pool-rates-content .label {
+    font-size: 12px;
+    color: rgb(122, 110, 170);
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.event-description .pool-rates-content .value {
+    font-size: 20px;
+    font-family: "Kanit Medium";
+    color: rgb(40, 13, 95);
+    text-align: center;
+    margin-bottom: 5px;
 }

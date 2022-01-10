@@ -18,10 +18,12 @@
 		<!-- 🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈🌈 STYLES -->
 		<link rel="stylesheet" href="assets/css/plugins/remixicon.css" />
 		<link rel="stylesheet" href="assets/css/plugins/bootstrap.min.css" />
-		<link rel="stylesheet" href="assets/css/plugins/swiper-bundle.min.css" />
+		<link rel="stylesheet" href="assets/css/plugins/owl.carousel.min.css" />
+		<link rel="stylesheet" href="assets/css/plugins/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="assets/css/toastr.css">
 		<link rel="stylesheet" href="assets/css/style.css" />
 		<link rel="stylesheet" href="assets/css/custom.css" />
+		<link rel="stylesheet" href="assets/css/cards-style.css" />
 	</head>
 	<body class="body">
 		<div class="overflow-hidden">

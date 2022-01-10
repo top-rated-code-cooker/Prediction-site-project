@@ -1,0 +1,522 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.prediction-cards {
+    display: flex;
+}
+
+.live-card {
+    color: rgb(40, 13, 95);
+    position: relative;
+    background: linear-gradient(rgb(253, 202, 83), rgb(242, 51, 104)) 0% 0% / 400% 400%;
+    border-radius: 14px;
+    overflow: hidden;
+    animation: 2s ease 0s infinite normal none running idZEjz;
+    padding: 3px 3px 6px;
+    width: 280px;
+    height: 100%;
+}
+
+.live-card .card-header {
+    -webkit-box-align: center;
+    align-items: center;
+    background: transparent;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 37px;
+    padding: 16px 16px 0 16px;
+}
+.live-card .bet-status {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.live-card .bet-status .status-icon svg {
+    align-self: center;
+    fill: rgb(118, 69, 217);
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.live-card .bet-status .status-label {
+    color: rgb(118, 69, 217);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 21px;
+}
+
+.card-body {
+    padding: 16px;
+}
+
+.bull-bet-users {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(233, 234, 235);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.bull-bet-user {
+    width: 32px;
+    height: 32px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid rgb(253, 202, 83);
+    border-radius: 50%;
+}
+
+.bull-bet-user img {
+    width: 100%;
+    height: 100%;
+}
+
+.bull-arrow {
+    position: relative;    
+    height: 65px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.bull-arrow svg {
+    width: 100%;
+}
+
+.bull-arrow-content {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+
+.bull-arrow-content .label {
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 21px;
+}
+
+.bull-arrow-content .payout {
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.bull-arrow-content .payout span {   
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 4px;   
+}
+
+.bet-content-panel {
+    background: rgb(255, 255, 255);
+    border-radius: 14px;
+    padding: 8px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.bet-content-panel .subtitle{
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.current-price {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: auto;
+}
+
+.current-price-label {
+    color: rgb(242, 51, 104);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 24px;
+}
+
+.current-price-difference {
+    background-color: rgb(242, 51, 104);
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+}
+
+.current-price-difference svg {
+    fill: #ffffff;
+}
+
+.current-price-difference > div {
+    line-height: 24px;
+}
+
+.locked-price {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.prize-pool {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.prize-pool .label {
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.prize-pool .content {
+    display: flex;
+}
+
+.prize-pool-value {
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.prize-pool .content svg {
+    align-self: center;
+    fill: rgb(40, 13, 95);
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.bear-arrow {
+    position: relative; 
+    height: 65px;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.bear-arrow svg {
+    width: 100%;
+}
+
+.bear-arrow-content {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    height: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.bear-arrow-content .label {
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.bear-arrow-content .payout {
+    color: white;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.bear-arrow-content .payout span {    
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 4px;
+}
+
+.bear-bet-users {
+    margin-top: 10px;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(233, 234, 235);
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+
+.bear-bet-user {
+    width: 32px;
+    height: 32px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    padding: 2px;
+    border: 2px solid rgb(253, 202, 83);
+    border-radius: 50%;
+}
+
+.bear-bet-user img {
+    width: 100%;
+    height: 100%;
+}
+
+.completed-card {
+    background: rgb(231, 227, 235);
+    border-radius: 14px;
+    color: rgb(40, 13, 95);
+    overflow: hidden;
+    position: relative;
+    padding: 3px 3px 6px;
+    width: 280px;
+    height: 100%;
+}
+
+.completed-card .card-header {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(231, 227, 235);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 37px;
+    padding: 8px; 
+}
+
+.completed-card .card-header .bet-status {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.completed-card .bet-status .status-icon svg {
+    align-self: center;
+    fill: rgb(189, 194, 196);
+    flex-shrink: 0;
+    margin-right: 4px;
+}
+
+.completed-card .bet-status .status-label {
+    color: rgb(189, 194, 196);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+
+.completed-card .card-header .bet-id {
+    color: rgb(122, 110, 170);
+}
+
+.completed-card .card-body {
+    background: #ffffff;
+}
+
+.completed-card .card-body .bet-content-panel {
+    border: 2px solid rgb(231, 227, 235);
+}
+
+.view-contract a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+.view-contract a svg {
+    overflow: hidden;
+    vertical-align: middle;
+    margin-left: 1px;
+}
+
+.view-contract a:hover {
+    color: #EB8153;    
+}
+
+.next-card {
+    background: rgb(231, 227, 235);
+    border-radius: 14px;
+    color: rgb(40, 13, 95);
+    overflow: hidden;
+    position: relative;
+    padding: 0px 3px 6px;
+    width: 280px;
+    height: 100%;
+}
+
+.next-card .card-header {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(118, 69, 217);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 37px;
+    padding: 8px;
+}
+
+.next-card .card-header .bet-status {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.next-card .card-body {
+    background: #ffffff;
+}
+
+.next-card .card-body .bet-content-panel {
+    border: 2px solid rgb(231, 227, 235);
+}
+
+.enter-up {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: rgb(53, 208, 135);
+    color: white;
+    width: 100%;
+    margin-bottom: 4px;
+}
+
+.enter-down {
+    -webkit-box-align: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgb(14 14 44 / 40%) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-box-pack: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    opacity: 1;
+    outline: 0px;
+    transition: background-color 0.2s ease 0s, opacity 0.2s ease 0s;
+    height: 48px;
+    padding: 0px 24px;
+    background-color: rgb(242, 51, 104);
+    color: white;
+    width: 100%;
+}
+
+.next-card .bear-arrow-content .payout {
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.next-card .bear-arrow-content .label {
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.later-card {
+    background: rgb(231, 227, 235);
+    border-radius: 14px;
+    color: rgb(40, 13, 95);
+    overflow: hidden;
+    position: relative;
+    padding: 3px 3px 6px;
+    width: 280px;
+    height: 100%;
+}
+
+.later-card .card-header {
+    -webkit-box-align: center;
+    align-items: center;
+    background: rgb(231, 227, 235);
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 37px;
+    padding: 8px;
+}
+
+.later-card .card-header .bet-status {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.later-card .card-body {
+    background: #ffffff;
+}
+
+.later-card .bear-arrow-content .label {
+    color: rgb(122, 110, 170);
+}
+
+.later-card .card-body .bet-content-panel {
+    border: 2px solid rgb(231, 227, 235);
+    padding: 8px;
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.later-card .entry-starts {
+    color: rgb(40, 13, 95);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.later-card .entry-time {
+    color: rgb(40, 13, 95);
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 24px;
+}

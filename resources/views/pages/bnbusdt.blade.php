@@ -7,7 +7,7 @@
             </div>
             <div class="section_body swiper_artists">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper position-relative">
+                <div class="owl-carousel">
                     <!-- Slides -->
                     <div class="swiper-slide">
                         @include('cards.prediction_card_up')
